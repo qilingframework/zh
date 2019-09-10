@@ -20,8 +20,3 @@ Qiling is powered by the [Unicorn engine](http://www.unicorn-engine.org/).
 ### More Information
 
 For further information, please visit our website at https://www.qiling.io for more information.
-
-### Contact
-Twitter: [qiling_io](https://twitter.com/qiling_io)
-
-Weibo: [麒麟框架官方微博](https://www.weibo.com/sgniwx)
