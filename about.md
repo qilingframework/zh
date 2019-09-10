@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Qiling is an advanced binary emulation framework, with the following features:
+
+- Cross platform support: Windows, MacOS, Linux, BSD
+- Cross architecture support: X86, X86_64, Arm, Arm64, Mips
+- Supports Multiple file formats: PE, MachO, ELF
+- Emulates & sandbox machine code in an isolated environment
+- Provides high level API to setup & configure the sandbox
+- Provides granular instrumentation: allowing hooks at various levels (instruction/basic-block/memory-access/exception/syscall/IO/etc)
+- Allows dynamic patch on-the-fly running code, including the loaded libraries
+- A true framework written in Python, makes it easy to build customized security analysis tools for integration
+
+Qiling is powered by the Unicorn engine.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+For further information, please visit our website at https://www.qiling.io for more information.
 
-### Contact me
+### Contact
+[qiling_io](https://twitter.com/qiling_io)
 
-[email@domain.com](mailto:email@domain.com)
+[麒麟框架官方微博](https://www.weibo.com/sgniwx)
