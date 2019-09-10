@@ -15,7 +15,7 @@ Qiling is an advanced binary emulation framework, with the following features:
 - Allows dynamic patch on-the-fly running code, including the loaded libraries
 - A true framework written in Python, makes it easy to build customized security analysis tools for integration
 
-Qiling is powered by the Unicorn engine.
+Qiling is powered by the [Unicorn engine](http://www.unicorn-engine.org/).
 
 ### More Information
 
