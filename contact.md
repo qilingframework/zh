@@ -4,7 +4,7 @@ title: Contact us
 permalink: /contact/
 ---
 
-Got burning questions in mind? You can reach us at:-
+Got burning questions in mind? Feel free to reach us at:-
 
 Twitter: [qiling_io](https://twitter.com/qiling_io)
 
