@@ -19,4 +19,4 @@ Qiling is powered by the [Unicorn engine](http://www.unicorn-engine.org/).
 
 ### More Information
 
-For further information, please visit our website at [https://www.qiling.io](https://www.qiling.io/) for more information.
+Can't wait to test drive Qiling framework?, please visit our github repo at [https://github.com/qilingframework/qiling/](https://github.com/qilingframework/qiling/) for more information. 
