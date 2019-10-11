@@ -1,4 +1,8 @@
-### Features and Funtionalities
+---
+layout: page
+title: Features and Funtionalities
+permalink: /features/
+---
 
 Qiling Framework is an advanced binary emulation framework, with the following features:
 - Able to run on Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
@@ -26,3 +30,4 @@ Qiling Framework is the only solution combines disassember, binary instrumentati
         - *Qiling Framework is able to set and pre-fulfilled the state/ requirement, so that each new execute will go directly to function_targetbug()*
     - Patch a "unpacked" content of a packed binary file
         - *Able to patch a "packed" binary during execution, without unpacking*
+
