@@ -9,9 +9,6 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {% if post.pin == true %}
-        <p style="font-size: 13px;">{{ post.description | strip_html | truncatewords: 300 }}</p> 
-        {% endif %}
         {{ post.excerpt }}
       </div>
 
