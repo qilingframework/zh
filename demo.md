@@ -119,5 +119,3 @@ Input DlgItemText :
 0x1033ba3: EndDialog(0x00, 0x00) = 1
 0x1124d12: ExitProcess(0x01)
 ```
-
----
