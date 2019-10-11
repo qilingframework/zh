@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Demonstration
+title: How does it work?
 permalink: /demo/
 ---
-
-### How does it work?
 
 ##### Demo Setup
 - *Hardware : X86 64bit*
