@@ -8,9 +8,9 @@ The team behind Qiling Framework
 
 #### Core developers
 
-- LAU kaijern (xwings) <kj@qiling.io>
-- NGUYEN Anh Quynh <aquynh@gmail.com>
-- DING tianZe (D1iv3) <dddliv3@gmail.com>
-- SUN bowen (w1tcher) <w1tcher.bupt@gmail.com>
-- CHEN huitao (null) <null@qiling.io>
-- YU tong (sp1ke) <spikeinhouse@gmail.com>
+- LAU kaijern (xwings) < kj -AT- qiling -DOT- io >
+- NGUYEN Anh Quynh < aquynh -AT- gmail -DOT- com >
+- DING tianZe (D1iv3) < dddliv3 -AT- gmail -DOT- com >
+- SUN bowen (w1tcher) < w1tcher -DOT- bupt -AT- gmail -DOT- com >
+- CHEN huitao (null) < null -AT- qiling -DOT- io >
+- YU tong (sp1ke) < spikeinhouse -AT- gmail -DOT- com >
