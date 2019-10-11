@@ -6,13 +6,12 @@ layout: default
   {% for post in site.posts %}
     
     <article class="post">
-    {% if post.pin == true %}
-      <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p style="font-size: 13px;">{{ post.description | strip_html | truncatewords: 30 }}</p> 
-    {% endif %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
+        {% if post.pin == true %}
+        <p style="font-size: 13px;">{{ post.description | strip_html | truncatewords: 300 }}</p> 
+        {% endif %}
         {{ post.excerpt }}
       </div>
 
