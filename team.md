@@ -14,3 +14,6 @@ The team behind Qiling Framework
 - SUN bowen (w1tcher) < w1tcher -DOT- bupt -AT- gmail -DOT- com >
 - CHEN huitao (null) < null -AT- qiling -DOT- io >
 - YU tong (sp1ke) < spikeinhouse -AT- gmail -DOT- com >
+
+#### Contributors
+- FOO Kevin (chfl4gs) < chbsd64 -AT- gmail -DOT- com >
