@@ -16,6 +16,7 @@ Qiling Framework executes Wannacry binary, hooking address 0x40819a to catch the
 [![qiling DEMO 3: Catching wannacry's killer switch](https://img.youtube.com/vi/gVtpcXBxwE8/0.jpg)](https://www.youtube.com/watch?v=gVtpcXBxwE8 "Video DEMO 3")
 
 ###### Sample code
+
 ```python
 from qiling import *
 
@@ -29,6 +30,7 @@ if __name__ == "__main__":
 ```
 
 ###### Execution output
+
 ```
 0x1333804: __set_app_type(0x2)
 0x13337ce: __p__fmode() = 0x500007ec
@@ -50,6 +52,7 @@ Using Qiling Framework to dynamically patch a Windows crackme binary so that it 
 [![qiling DEMO 1: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
 
 ###### Sample code
+
 ```python
 from qiling import *
 
@@ -83,6 +86,7 @@ if __name__ == "__main__":
 ```
 
 ###### Execution output
+
 ```
 0x10cae10: GetStartupInfo(0xffffdf40)
 0x1121fa7: GetStdHandle(0xfffffff6) = 0xfffffff6
