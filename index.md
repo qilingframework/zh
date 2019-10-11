@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: What is Qiling Framework (in a nutshell)
 ---
 
