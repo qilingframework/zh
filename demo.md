@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Showcase
-permalink: /show/
+title: Demonstration
+permalink: /demo/
 ---
 
 ### How does it work?
