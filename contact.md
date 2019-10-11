@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact us
+title: Contact Us
 permalink: /contact/
 ---
 
