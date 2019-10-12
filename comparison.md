@@ -4,7 +4,7 @@ title: Qiling Framework vs other open source emulators and tools
 permalink: /comparison/
 ---
 
-There are many open source emulators, but two projects closest to Qiling are [Unicorn](http://www.unicorn-engine.org) & [Qemu usermode](https://qemu.org). This section summaries the main differences.
+There are many open source emulators, but two projects closest to Qiling Framework are [Unicorn](http://www.unicorn-engine.org) & [Qemu usermode](https://qemu.org). This section summaries the main differences.
 
 ##### Qiling Framework vs Unicorn engine
 
