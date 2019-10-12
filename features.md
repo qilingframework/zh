@@ -20,14 +20,18 @@ Qiling Framework is the only solution combines disassember, binary instrumentati
 - Qiling Framework is an advanced binary emulation framework which able to do the follow during execution
     - Redirect process execution flow on the fly
         - *Change execution flow when there is a check eg, cmp EAX,EBX always = true*
+        
     - Hot-patching binary during execution
         - *Define a code address and patch it during execution, and keeping the original binary untouched* 
+        
     - Code injection during execution
         - *Able to inject opcode or asm code into the binary during execution*
+        
     - Partial binary execution, without running the entire file
         - *If the target section is only one part (example, function_targetedbug() ) of a huge binary*
         - *Each execution need to fulfill different user input before reaching function_targetedbug()*
         - *Qiling Framework is able to set and pre-fulfilled the state/ requirement, so that each new execute will go directly to function_targetbug()*
+        
     - Patch a "unpacked" content of a packed binary file
         - *Able to patch a "packed" binary during execution, without unpacking*
 
