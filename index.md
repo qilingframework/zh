@@ -1,4 +1,8 @@
-### What is Qiling Framework
+---
+layout: page
+title: What is Qiling Framework
+permalink: /index/
+---
 
 - Qiling Framework is not only an emulataion tool. It combines binary instrumentation and binary emulation into one single framework. Its features include
     - **Redirect process execution flow on the fly**
