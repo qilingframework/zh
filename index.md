@@ -7,7 +7,7 @@ Qiling Framework is not only an emulataion tool. It combines binary instrumentat
   - Partial binary execution, without running the entire file
   - Patch a "unpacked" content of a packed binary file
 
-Qiling Framework emulates 
+Qiling Framework emulates: 
   - Windows X86 32/64bit
   - Linux X86 32/64bit, ARM, AARCH64, MIPS
   - MacOS X86 32/64bit
