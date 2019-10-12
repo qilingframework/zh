@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Team
-permalink: /team/
+title: About
+permalink: /about/
 ---
 
 <h3>Kai Jern LAU (xwings)</h3>
@@ -22,12 +22,14 @@ As a passionate coder, Dr. Nguyen is the founder and maintainer of several open 
 
 <h3>Tian Ze DING (D1iv3)</h3>
 #### Developer
+Tian Ze DING is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
 
 
 <h3>Bo Wen SUN (w1tcher)</h3>
 #### Developer
+Bo Web SUN is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
 
@@ -40,11 +42,13 @@ As a passionate coder, Dr. Nguyen is the founder and maintainer of several open 
 
 <h3>Tong YU (sp1ke)</h3>
 #### Developer
+Tong Yu is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
 
 
 <h3>Kevin FOO (chfl4gs)</h3>
-#### misc
+#### Dockerfile, documentation and website
+Kevin is a seasoned security practitioner and previously involved in various projects such as the Honeynet project and Hex LiveCD project.
 
 ---
