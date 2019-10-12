@@ -22,6 +22,7 @@ As a passionate coder, Dr. Nguyen is the founder and maintainer of several open 
 
 <h3>Tian Ze DING (D1iv3)</h3>
 #### Developer
+
 Tian Ze DING is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
@@ -29,6 +30,7 @@ Tian Ze DING is currently PhD student of Beijing University of Posts and Telecom
 
 <h3>Bo Wen SUN (w1tcher)</h3>
 #### Developer
+
 Bo Web SUN is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
@@ -42,6 +44,7 @@ Bo Web SUN is currently PhD student of Beijing University of Posts and Telecommu
 
 <h3>Tong YU (sp1ke)</h3>
 #### Developer
+
 Tong Yu is currently PhD student of Beijing University of Posts and Telecommunication.
 
 ---
@@ -49,6 +52,7 @@ Tong Yu is currently PhD student of Beijing University of Posts and Telecommunic
 
 <h3>Kevin FOO (chfl4gs)</h3>
 #### Dockerfile, documentation and website
+
 Kevin is a seasoned security practitioner and previously involved in various projects such as the Honeynet project and Hex LiveCD project.
 
 ---
