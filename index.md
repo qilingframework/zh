@@ -1,16 +1,16 @@
 <h1>What is Qiling Framework</h1>
-- Qiling Framework is not only an emulataion tool. It combines binary instrumentation and binary emulation into one single framework. Its features include
++ Qiling Framework is not only an emulataion tool. It combines binary instrumentation and binary emulation into one single framework. Its features include
     - Redirect process execution flow on the fly
     - Hot-patching binary during execution
     - Code injection during execution
     - Partial binary execution, without running the entire file
     - Patch a "unpacked" content of a packed binary file
-- Qiling Framework emulates 
++ Qiling Framework emulates 
     - Windows X86 32/64bit
     - Linux X86 32/64bit, ARM, AARCH64, MIPS
     - MacOS X86 32/64bit
     - FreeBSD X86 32/64bit
-- Qiling Framework able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
++ Qiling Framework able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
 
 ---
 
