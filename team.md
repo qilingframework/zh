@@ -27,7 +27,7 @@ As a passionate coder, Dr. Nguyen is the founder and maintainer of several open 
 
 
 <h3>Bo Wen SUN (w1tcher)</h3>
-#### Developer</h3>
+#### Developer
 
 ---
 
