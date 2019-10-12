@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How does it work?
+title: How does it work
 permalink: /demo/
 ---
 
