@@ -1,7 +1,7 @@
 <h1>What Is Missing</h1>
 The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and to cope with. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
 
-The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operatiing System) and CPU archirecture. Reverse engineers are not only struggling to understand diffrent operating systems and cpu architecture, lack of tools to perform analysis makes things harder.
+The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operating System) and CPU archirecture. Reverse engineers are not only struggling to understand diffrent operating systems and cpu architecture, lack of tools to perform analysis makes things harder.
 
 Common tools for doing analysis such as full system emulation, usermode emulation, binary instrumentation, disassembler and sandboxing are just barely enough. These tools are either limited in cross platform support or multi CPU architecture support. Tools availble now to use seperately and analyzed data are not easy to cross referece. This is one of the reason why reverse enginnering is never a easy task.
  
