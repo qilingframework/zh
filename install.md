@@ -4,16 +4,19 @@ title: Installation guide
 permalink: /install/
 ---
 
-For this installation guide, we use Ubuntu desktop 18.04.3 LTS 64 bit. You can grab a copy of official Ubuntu ISO images from [Ubuntu CD mirrors](https://launchpad.net/ubuntu/+cdmirrors). Update your Ubuntu system and install required software and libraries with command below:
+Qiling Framework works with different operating system and not limit to any CPU architecture.
+
+For this installation guide, Ubuntu desktop 18.04.3 LTS 64bit is the base example. Grab a copy of official Ubuntu ISO images from [Ubuntu CD mirrors](https://launchpad.net/ubuntu/+cdmirrors). Update and the system and also install pip3, git and cmake
 ```
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt install python3-pip git cmake
 ```
-This will install required python3, pip3, git tools and other essentials libraries to proceed with next step
 
-Once completed, you can clone Qiling Framework source and run setup to install it.
+Once completed, clone Qiling Framework source and run setup to install it.
 ```
 git clone https://github.com/qilingframework/qiling
-cd qiling && sudo pip3 install -r requirements.txt
+cd qiling
 sudo python3 setup.py install 
 ```
 
@@ -21,7 +24,7 @@ sudo python3 setup.py install
 
 #### Important note on Windows DLLs and registry
 
-Due to distribution restriction, we do not bundle Microsoft Windows DLL files and registry. You need to copy respective DLLs and registry from Microsoft Windows System
+Due to distribution restriction, Qiling Framework will not bundle Microsoft Windows DLL files and registry. Please copy respective DLLs and registry from Microsoft Windows System. Normally in C:\Windows\system32
 
 
 Refer to [DLLX86.txt](https://github.com/qilingframework/qiling/blob/master/docs/DLLX86.txt) for Windows 32bit DLLs hashes and file version
