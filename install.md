@@ -13,7 +13,7 @@ sudo apt-get upgrade
 sudo apt install python3-pip git cmake
 ```
 
-Once completed, clone from github.com Qiling Framework source and run setup to install it.
+Once completed, clone a copy of Qiling Framework source from github and run setup to install it.
 ```
 git clone https://github.com/qilingframework/qiling
 cd qiling
@@ -24,7 +24,7 @@ sudo python3 setup.py install
 
 #### Important note on Windows DLLs and registry
 
-Due to distribution restriction, Qiling Framework will not bundle Microsoft Windows DLL files and registry. Please copy respective DLLs and registry from Microsoft Windows System. Normally in C:\Windows\system32 and place it in $rootfs/dlls
+Due to distribution restriction, Qiling Framework will not bundle Microsoft Windows DLL files and registry. Please copy respective DLLs and registry from Microsoft Windows System, usually found in C:\Windows\system32 and place them in $rootfs/dlls
 
 
 Refer to [DLLX86.txt](https://github.com/qilingframework/qiling/blob/master/docs/DLLX86.txt) for Windows 32bit DLLs hashes and file version
