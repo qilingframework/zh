@@ -31,4 +31,11 @@ Refer to [DLLX86.txt](https://github.com/qilingframework/qiling/blob/master/docs
 
 Refer to [DLLX8664.txt](https://github.com/qilingframework/qiling/blob/master/docs/DLLX8664.txt) for Windows 64bit DLLs hashes and file version
 
-Refer to [REGISTRY.md](https://github.com/qilingframework/qiling/blob/master/docs/REGISTRY.md) for Windows registry
+To export Windows Registry from Windows
+```
+ntuser hive : C:\Users\Default\NTUSER.DAT 
+reg save hklm\system SYSTEM
+reg save hklm\security SECURITY
+reg save hklm\software SOFTWARE
+reg save hklm\SAM SAM
+```
