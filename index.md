@@ -1,5 +1,5 @@
 <h1>Executive Summary</h1>
-Qiling Framework is not yet another emulataion tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, we can achive:
+Qiling Framework is not yet another emulataion tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, we can achieve
 
   - Redirect process execution flow on the fly
   - Hot-patching binary during execution
