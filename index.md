@@ -1,4 +1,4 @@
-<h1>What is missing in reverse engineering world</h1>
+<h1>What Is Missing</h1>
 The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and to cope with. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
 
 The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operatiing System) and CPU archirecture. Reverse engineers are not only struggling to understand diffrent operating systems and cpu architecture, lack of tools to perform analysis makes things harder.
