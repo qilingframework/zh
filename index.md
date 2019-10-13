@@ -1,17 +1,17 @@
 <h1>What Is Missing</h1>
-The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and to cope with. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
+Insecure Internet of Things (IoT) and malware attack are affecting our day-to-day life. Hardware verdors and the entire security industry is struggling to fight againts the bad guys and at the same time trying to build a better product. Sadly, IoT threat analysis and malware analysis remain the two biggiest challanges in the security industry. 
 
-The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operating System) and CPU archirecture. Reverse engineers are not only struggling to understand diffrent operating systems and cpu architecture, lack of tools to perform analysis makes things harder.
+Modern IoT threat and malware are moving towards different platform (Operating System) and CPU archirecture. Reverse engineers are not only struggling to understand diffrent operating systems and cpu architecture. Also, lacking of updated tools surely did not help. Tools available currently are not even any near to catch up with the speed of fast growing security threat.
 
-Common tools for doing analysis such as full system emulation, usermode emulation, binary instrumentation, disassembler and sandboxing are just barely enough. These tools are either limited in cross platform support or multi CPU architecture support. Tools availble now to use seperately and analyzed data are not easy to cross referece. This is one of the reason why reverse enginnering is never a easy task.
+Currently, available tools for doing analysis such as full system emulation, usermode emulation, binary instrumentation, disassembler and sandboxing are just barely enough. These tools are either limited in cross platform or multi CPU architecture support. These tools need to used seperately and analyzed data are not easy to compiled or cross referece. This also contribute to the reason why reverse enginnering is never a easy task.
  
 ---
 <h1>Why Qiling Framework</h1>
-Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a total solution for cross platform and cross architecture framework, not just engineer another tool. Qiling Framework is designed for easy to use and easy to develope. Qiling Framework is also fully open-source. Hence, sustainable future development could be benefited from the work of the community.
+Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a total solution for cross platform and cross architecture framework, not just another reverse enginnering tool. Qiling Framework is designed for easy to deploy, use and to build application on top of it. Qiling Framework is also fully open-source. Hence, sustainable future development could be benefited from the work of the community.
 
-Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitary code injection before or during a binary execution and hotpatching packed binary.
+Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitary code injection before or during a binary execution. It also able to patch a packed binary during execution.
 
-Qiling Framework is able to runs on different operating system and supports different CPU architures. Python, a simple and commonly used programming language by reverse engineers, is chosen as the fundamental language for Qiling Framework.
+Qiling Framework is able to runs on different operating system and supports different CPU architures. Qiling Framework is written in Python, a simple and commonly used programming language by reverse engineers.
 
 
 ---
