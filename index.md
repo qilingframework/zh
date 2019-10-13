@@ -7,7 +7,7 @@ Common tools for doing analysis such as full system emulation, usermode emulatio
  
 ---
 <h1>Why Qiling Framework</h1>
-Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a total solution for cross platform and cross architecture framework, not "yet just engineer another tool". Qiling Framework is designed for easy to use and easy to develope. Qiling Framework is also fully open-source. Hence, sustainable future development could be benefited from the work of the community.
+Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a total solution for cross platform and cross architecture framework, not just engineer another tool. Qiling Framework is designed for easy to use and easy to develope. Qiling Framework is also fully open-source. Hence, sustainable future development could be benefited from the work of the community.
 
 Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitary code injection before or during a binary execution and hotpatching packed binary.
 
