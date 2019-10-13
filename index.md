@@ -1,3 +1,19 @@
+<h1>What is missing in reverse engineering world</h1>
+The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and cope with such growth and attacks. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
+
+The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operatiing System) and CPU archirecture. Reverse engineers are not only struggling to understand each operating systems and cpu architecture, but more discouragingly there is lack of tools to perform indept analysis.
+
+Common techniques of analysis such as full system emulation, usermode emulation, binary instrumentation tool, disassembler and sandboxing are ancient and obsolete. These tools are either limited in cross platform support or CPU architecture support, most imporatantly they need to use seperately and analyzed data are not easy to cross referece.
+ 
+---
+<h1>Why Qiling Framework</h1>
+Qiling Framework is aimed to change IoT research, threat analysis and reverse engineering landscape. The main objective is to build a complete cross platform and cross architecture framework and not "yet just engineer another tool". Qiling Framework is designed for easy application, intended to serve future expansion and fully open-sourced. Hence, sustainable future development could be benefited from the work of the community.
+
+By design, Qiling Framework runs on different types of platforms and supports as many CPU architures as possible. As such, Python, a simple and commonly used programming language by reverse engineers, is chosen as fundamental language for Qiling Framework's development.
+
+Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitary code injection before or during a binary execution and hotpatching packed binary.
+
+---
 <h1>Executive Summary</h1>
 Qiling Framework is not yet another emulataion tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, we can achieve
 
@@ -14,24 +30,6 @@ Qiling Framework emulates:
   - FreeBSD X86 32/64bit
 
 Qiling Framework is able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
-
----
-
-<h1>What is missing in reverse engineering world</h1>
-The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and cope with such growth and attacks. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
-
-The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operatiing System) and CPU archirecture. Reverse engineers are not only struggling to understand each operating systems and cpu architecture, but more discouragingly there is lack of tools to perform indept analysis.
-
-Common techniques of analysis such as full system emulation, usermode emulation, binary instrumentation tool, disassembler and sandboxing are ancient and obsolete. These tools are either limited in cross platform support or CPU architecture support, most imporatantly they need to use seperately and analyzed data are not easy to cross referece.
- 
----
-
-<h1>Why Qiling Framework</h1>
-Qiling Framework is aimed to change IoT research, threat analysis and reverse engineering landscape. The main objective is to build a complete cross platform and cross architecture framework and not "yet just engineer another tool". Qiling Framework is designed for easy application, intended to serve future expansion and fully open-sourced. Hence, sustainable future development could be benefited from the work of the community.
-
-By design, Qiling Framework runs on different types of platforms and supports as many CPU architures as possible. As such, Python, a simple and commonly used programming language by reverse engineers, is chosen as fundamental language for Qiling Framework's development.
-
-Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitary code injection before or during a binary execution and hotpatching packed binary.
 
 ---
 
