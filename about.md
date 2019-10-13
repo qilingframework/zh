@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h3>kaijern(xwings), LAU</h3>
+<h3>LAU Kai Jern (xwings)</h3>
 #### Project Leader
 
 KaiJern (xwings), is Lab Director of The ShepherdLab, of JD Security. His research topic mainly on embedded device, hardware security, blockchain security, reverse engineering and various security topics. He presented his findings in different international security conferences like Defcon, HITB, Codegate, QCon, KCon, Brucon, H2HC and etc. He conducted hardware Hacking course in various places around the globe. He is also the owner of hackersbadge.com and actively involved in Unicorn (http://unicorn-engine.org) development.
@@ -20,7 +20,7 @@ As a passionate coder, Dr. Nguyen is the founder and maintainer of several open 
 
 ---
 
-<h3>Tian Ze DING (D1iv3)</h3>
+<h3>DING Tian Ze (D1iv3)</h3>
 #### Developer
 
 Tian Ze DING is currently Master student of Beijing University of Posts and Telecommunication.
@@ -28,7 +28,7 @@ Tian Ze DING is currently Master student of Beijing University of Posts and Tele
 ---
 
 
-<h3>Bo Wen SUN (w1tcher)</h3>
+<h3>SUN Bo Wen (w1tcher)</h3>
 #### Developer
 
 Bo Web SUN is currently Master student of Beijing University of Posts and Telecommunication.
@@ -36,13 +36,13 @@ Bo Web SUN is currently Master student of Beijing University of Posts and Teleco
 ---
 
 
-<h3>Hui Tao CHEN (null)</h3>
+<h3>CHEN Hui Tao (null)</h3>
 #### Developer
 
 ---
 
 
-<h3>Tong YU (sp1ke)</h3>
+<h3>YU Tong (sp1ke)</h3>
 #### Developer
 
 Tong Yu is currently Master student of Beijing University of Posts and Telecommunication.
