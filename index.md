@@ -1,7 +1,7 @@
 <h1>What are the problems?</h1>
 Insecure Internet of Things (IoT) and malware attack are affecting our day-to-day life. Hardware vendors and the entire security industry is struggling to fight against the bad guys and at the same time trying to build a better product. Sadly, IoT threat analysis and malware analysis remain the two biggest challenges in the security industry.
 
-Modern IoT threat and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to understand different operating systems and CPU architecture. Also, lacking updated tools surely do not help. Tools available currently are not even any near to catch up with the speed of fast-growing security threat.
+Modern IoT threat and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to understand different operating systems and CPU architecture. Also, lacking updated tools surely does not help. Tools available currently are not even any near to catch up with the speed of fast-growing security threat.
 
 Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. However, these tools are either limited in cross platform or multi CPU architecture support. Most of these tools need to be used separately and analyzed data are hard to compile or cross reference. This also contributes to the reason why reverse engineering is never an easy task.
 
