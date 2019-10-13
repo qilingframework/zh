@@ -1,5 +1,5 @@
-<h1>What is Qiling Framework</h1>
-Qiling Framework is not only an emulataion tool. It combines binary instrumentation and binary emulation into one single framework. Its features include:
+<h1>Executive Summaryk</h1>
+Qiling Framework is not yet another emulataion tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, we can achive:
 
   - Redirect process execution flow on the fly
   - Hot-patching binary during execution
@@ -13,12 +13,12 @@ Qiling Framework emulates:
   - MacOS X86 32/64bit
   - FreeBSD X86 32/64bit
 
-Qiling Framework able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
+Qiling Framework is able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
 
 ---
 
 <h1>What is missing in reverse engineering world</h1>
-The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and cope with such growth and attacks. Abominably, IoT firmware and malware sample analysis remain the two biggiest challanges for the security industry.
+The insecure Internet of Things (IoT) devices and malware attack are affecting our day-to-day life. Security industry is struggling to safeguard and cope with such growth and attacks. Until now, IoT firmware and malware analysis remain the two biggiest challanges for the security industry.
 
 The attack surface swifts quickly as the IoT devices and malware are moving towards different platform (Operatiing System) and CPU archirecture. Reverse engineers are not only struggling to understand each operating systems and cpu architecture, but more discouragingly there is lack of tools to perform indept analysis.
 
