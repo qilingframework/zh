@@ -14,7 +14,7 @@ Qiling Framework is designed for easy to deploy, use and to build application on
 
 Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is also packed with powerful features such as code interception and arbitrary code injection before or during a binary execution. It also able to patch a packed binary during execution.
 
-Qiling Framework can runs on different operating system and supports different CPU acritudes. Qiling Framework is written in Python, a simple and commonly used programming language by reverse engineers. This will ensure the continiues development and contribution from the security and open-source community.
+Qiling Framework can runs on different operating system and supports different CPU acritudes. Qiling Framework is written in Python, a simple and commonly used programming language by reverse engineers. This will ensure the continues  development and contribution from the security and open-source community.
 
 ---
 <h1>Executive Summary</h1>
