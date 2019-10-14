@@ -43,7 +43,7 @@ Qiling Framework is able to run on top of Windows/MacOS/Linux/FreeBSD without CP
 ##### Demo #1 Catching Wannacry's killer switch
 Qiling Framework executes Wannacry binary, hooking address 0x40819a to catch the killerswitch url
 
-[![qiling DEMO 3: Catching wannacry's killer switch](https://img.youtube.com/vi/gVtpcXBxwE8/0.jpg)](https://www.youtube.com/watch?v=gVtpcXBxwE8 "Video DEMO 3")
+[![qiling DEMO 1: Catching wannacry's killer switch](https://img.youtube.com/vi/gVtpcXBxwE8/0.jpg)](https://www.youtube.com/watch?v=gVtpcXBxwE8 "Video DEMO 3")
 
 ###### Sample code
 
@@ -75,11 +75,28 @@ if __name__ == "__main__":
 0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
 ```
 ---
+##### Demo #2 Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine
+[![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
 
-##### Demo #2 Hotpatching a Windows crackme
+```python
+from qiling import *
+
+def my_sandbox(path, rootfs):
+    ql = Qiling(path, rootfs, stdin = sys.stdin, stdout = sys.stdout, stderr = sys.stderr)
+    # Patch 0x00005930 from br0 to ens33
+    ql.patch(0x00005930, b'ens33\x00', file_name = b'libChipApi.so')
+    ql.root = False
+    ql.run()
+
+
+if __name__ == "__main__":
+    my_sandbox(["rootfs/tendaac15/bin/httpd"], "rootfs/tendaac15")
+```
+---
+##### Demo #3 Hotpatching a Windows crackme
 Using Qiling Framework to dynamically patch a Windows crackme binary so that it always displays "Congratulation" dialog
 
-[![qiling DEMO 1: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
+[![qiling DEMO 3: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
 
 ###### Sample code
 
