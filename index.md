@@ -3,7 +3,7 @@ The insecurity of smart Internet-connected or so-called “IoT” devices has be
 
 Modern IoT threats and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to cope with the trend and understand different operating systems and CPU architecture. Besides, lack of updated tools makes the situation worse. Current available tools are no where near to catch up with the speed of fast-growing security threat.
 
-Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. These tools are either only serve single type operating system or only work on one CPU architecture. Also, these tools need to be used separately, streamlining information or cross referencing data is almost imposible. These are the reasons why reverse engineering is never an easy task.
+Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. These tools are either only serving single type operating system or only working on one CPU architecture. Also, these tools need to be used separately, streamlining information or cross referencing data is almost imposible. These are the reasons why reverse engineering is never an easy task.
 
 * [1] Research from SonicWall has revealed that a record high of 10.52bn malware attacks occurred in 2018 indicating an escalation in the volume of cyberattacks as well as new targeted threat tactics used by cybercriminals
 
