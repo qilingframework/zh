@@ -16,7 +16,7 @@ Qiling Framework is open source and it is written in Python, a simple and common
 
 ---
 <h1>What is Qiling Framework all about</h1>
-Qiling Framework is not just another emulataion tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, we can achieve
+Qiling Framework is not just a emulataion platform or a reverse engiinnering tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, it able to:
 
   - Redirect process execution flow on the fly
   - Hot-patching binary during execution
@@ -24,7 +24,7 @@ Qiling Framework is not just another emulataion tool. It combines binary instrum
   - Partial binary execution, without running the entire file
   - Patch a "unpacked" content of a packed binary file
 
-Qiling Framework emulates: 
+Qiling Framework able to emulates: 
   - Windows X86 32/64bit
   - Linux X86 32/64bit, ARM, AARCH64, MIPS
   - MacOS X86 32/64bit
