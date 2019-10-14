@@ -1,11 +1,12 @@
 <h1>Threat, Research and Workaround</h1>
-Insecure Internet of Things (IoT) and malware attack are affecting our day-to-day life. Hardware vendors and the entire security industry are struggling to fight the adversaries while trying to build better and safer products. Unfortunately, IoT threat analysis and malware analysis remain the two biggest challenges in the security industry.
+The insecurity of smart Internet-connected or so-called “IoT” devices has become more concerning than ever. The existence of malware exploiting vulnerable, often poorly secured and configured Internetfacing devices has been known for many years. Hardware vendors and the entire security industry are struggling to fight the adversaries while trying to build better and safer products. Unfortunately, IoT threats and malware analysis remain the two biggest challenges in the security industry. [1]
 
 Modern IoT threats and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to cope with the trend and understand different operating systems and CPU architecture. Besides, lack of updated tools makes the situation worse. Tools currently available are no where near to catch up with the speed of fast-growing security threat.
 
 Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. However, these tools are either limited in cross platform or multi CPU architecture support. Most of these tools need to be used separately and analyzed data are hard to compile or cross reference. This also contributes to the reason why reverse engineering is never an easy task.
 
- 
+* [1] New research from SonicWall has revealed that a record high of 10.52bn malware attacks occurred in 2018 indicating an escalation in the volume of cyberattacks as well as new targeted threat tactics used by cybercriminals
+
 ---
 <h1>Why Qiling Framework</h1>
 Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a cross-platform and multi-architecture framework and not just another reverse engineering tool. 
