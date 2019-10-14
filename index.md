@@ -1,7 +1,7 @@
 <h1>Threat, Research and Workaround</h1>
-Insecure Internet of Things (IoT) and malware attack are affecting our day-to-day life. Hardware vendors and the entire security industry is struggling to fight against the bad guys and at the same time trying to build a better product. Sadly, IoT threat analysis and malware analysis remain the two biggest challenges in the security industry.
+Insecure Internet of Things (IoT) and malware attack are affecting our day-to-day life. Hardware vendors and the entire security industry are struggling to fight the bad guys while trying to build a better product. Sadly, IoT threat analysis and malware analysis remain the two biggest challenges in the security industry.
 
-Modern IoT threats and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to understand different operating systems and CPU architecture. Also, lacking updated tools surely does not help. Tools available currently are not even any near to catch up with the speed of fast-growing security threat.
+Modern IoT threats and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to cope with the trend, understanding different operating systems and CPU architecture. Besides, lacking of updated tools makes the situation worse. Tools currently available are no where near to catch up with the speed of fast-growing security threat.
 
 Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. However, these tools are either limited in cross platform or multi CPU architecture support. Most of these tools need to be used separately and analyzed data are hard to compile or cross reference. This also contributes to the reason why reverse engineering is never an easy task.
 
@@ -16,7 +16,7 @@ Qiling Framework is open source and it is written in Python, a simple and common
 
 ---
 <h1>What is Qiling Framework all about</h1>
-Qiling Framework is not just a emulataion platform or a reverse engiinnering tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, it able to:
+Qiling Framework is not just a emulation platform or a reverse engineering tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, it able to:
 
   - Redirect process execution flow on the fly
   - Hot-patching binary during execution
