@@ -75,7 +75,9 @@ if __name__ == "__main__":
 0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
 ```
 ---
-##### Demo #2 Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine
+##### Demo #2 Emulating ARM router firmware on Ubuntu X64 machine
+Qiling Framework hot-patch and emulate ARM router's /usr/bin/httpd on a X86_64Bit Ubuntu
+
 [![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
 
 ```python
