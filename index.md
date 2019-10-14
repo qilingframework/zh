@@ -16,7 +16,7 @@ Qiling Framework is designed as a binary instrumentation and binary emulation fr
 Qiling Framework is open source and it is written in Python, a simple and commonly used programming language by reverse engineers. This will encourage continuous and active contributions from the security and open-source community. Hence, sustainable future development could be ensured.
 
 ---
-<h1>What is Qiling Framework All About</h1>
+<h1>What is Qiling Framework</h1>
 Qiling Framework is not just a emulation platform or a reverse engineering tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, it able to:
 
   - Redirect process execution flow on the fly
@@ -35,7 +35,7 @@ Qiling Framework is able to run on top of Windows/MacOS/Linux/FreeBSD without CP
 
 ---
 
-<h1>How It Works</h1>
+<h1>How Qiling Framework Works</h1>
 ##### Demo Setup
 - *Hardware : X86 64bit*
 - *OS : Ubuntu 18.04 64bit*
