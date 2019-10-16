@@ -40,6 +40,8 @@ reg save hklm\software SOFTWARE
 reg save hklm\SAM SAM
 ```
 
+---
+
 #### Installation notes on macOS >= 10.14
 
 Keystone-engine compilation from py-pip fails (on Mojave at least) because i386 architecture is deprecated for macOS. 
