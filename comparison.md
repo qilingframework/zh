@@ -13,6 +13,8 @@ Qiling框架建立在Unicorn之上。然而，Qiling和Unicorn是不同的。
 
   - Qiling被设计为一个更高级别的框架，它利用Unicorn来模拟CPU指令，但Qiling理解OS：它有可执行文件加载功能（目前用于PE、MachO和ELF）、动态链接程序（以便我们可以加载和重定位共享库）、Syscall和IO处理功能。因此，Qiling可以运行通常可以在操作系统中运行的可执行二进制文件。
 
+---
+
 ##### Qiling Framework vs Qemu usermode
 Qemu用户模式也做了类似的事情，即以跨体系结构的方式模拟执行整个可执行二进制文件。然而，与Qemu用户模式相比，Qiling提供了一些重要的区别。
 
@@ -24,23 +26,31 @@ Qemu用户模式也做了类似的事情，即以跨体系结构的方式模拟�
 
   - Qiling支持更多平台，包括Windows、MacOS、Linux和BSD。Qemu用户模式只处理Linux和BSD
 
+---
+
 ##### Qiling Framework vs Qemu
 不会翻译
+
+---
 
 ##### Qiling Framework vs Usercorn
   - Usercorn是带有插桩功能的仿真工具，类似于Qiling Framework的功能，它能够进行系统调用转发，插桩
 
   - 但是，Usercorn仅支持Linux（一定程度上支持MacOS）。Qiling Framework在平台和体系结构上支持更全面
 
+---
+
 ##### Qiling Framework vs Binee
   - Binee是一个用Go语言开发的仿真工具，但它不是一个框架。Binee不允许动态hook、热修补或提供任何自定义功能。作为Python模块设计的Qiling框架提供了更多的功能，使得很多动态分析成为可能
 
   - Binee只支持windows。Qiling框架支持更多平台和架构
+---
 
 ##### Qiling Framework vs Wine
   - Wine是一个模拟工具，不是用来分析的框架。它只在Linux、Mac、Freebsd和Solaris上模拟Windows，允许用户在\*NIX平台上运行Windows应用程序
 
   - Qiling框架并不是为此目的而构建的, 虽然Qiling可以运行许多其他平台和体系结构运行应用程序，但Qiling是用来做安全分析的
+---
 
 ##### Qiling Framework vs Cuckoo Sandbox
 Cuckoo Sandbox是一个基于虚拟机的分析工具，即qemu、virtualbox，为二进制执行提供虚拟化环境。
