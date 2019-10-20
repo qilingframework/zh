@@ -1,51 +1,54 @@
-<h1>Threat, Research and Workaround</h1>
-The insecurity of smart Internet-connected or so-called “IoT” devices has become more concerning than ever. The existence of malware exploiting vulnerable, often poorly secured and configured Internetfacing devices has been known for many years. Hardware vendors and the entire security industry are struggling to fight the adversaries while trying to build better and safer products. Unfortunately, IoT threats and malware analysis remain the two biggest challenges in the security industry.
+<h1>威胁，研究与解决方法</h1>
+智能互联网或所谓的"IoT"设备的安全性正在变得比以往任何时候都更加令人担忧。
 
-Modern IoT threats and malware are moving towards various platforms and CPU architecture. Reverse engineers are struggling to cope with the trend and understand different operating systems and CPU architecture. Besides, lack of updated tools makes the situation worse. Current available tools are no where near to catch up with the speed of fast-growing security threat.
+多年来，恶意软件所攻击的对象大多是安全性差或者配置不当的网络设备。硬件供应商和整个安全行业都在努力与攻击者对抗，同时试图制造更好，更安全的产品。不幸的是，物联网威胁和恶意软件分析仍然是安全行业的两个最大挑战。
 
-Common techniques used to perform analysis such as full system emulation, user-mode emulation, binary instrumentation, disassembler and sandboxing are just barely sufficient. These tools are either only serving single type operating system or only working on one CPU architecture. Also, these tools need to be used separately, streamlining information or cross referencing data is almost imposible. These are the reasons why reverse engineering is never an easy task.
+现代物联网设备威胁和恶意软件正在涉及各种操作系统平台和CPU体系结构。逆向工程师是正在通过理解各种操作系统和CPU架构来努力应对这种情况。此外，一些逆向工具缺乏对应功能的更新会使这种情况变得更加糟糕。当前的分析工具无法应对快速增长的安全威胁。
 
-* [1] Research from SonicWall has revealed that a record high of 10.52bn malware attacks occurred in 2018 indicating an escalation in the volume of cyberattacks as well as new targeted threat tactics used by cybercriminals
+现阶段有很多针对二进制程序的分析技术，例如完整的系统仿真、用户模式仿真、二进制插桩工具和沙箱。 大多数使用这些技术的工具仅服务于单一类型的操作系统，或者仅适用于某一种CPU体系结构。 另外，这些工具通常需要单独使用，工具间几乎不可能共享分析信息或交叉引用数据。 这就是逆向工程的困难所在。
 
----
-<h1>Why Qiling Framework</h1>
-Qiling Framework is aimed to change IoT security research, malware analysis and reverse engineering landscape. The main objective is to build a cross-platform and multi-architecture framework and not just another reverse engineering tool. 
-
-Qiling Framework is designed as a binary instrumentation and binary emulation framework that supports cross-platform and multi-architecture. It is packed with powerful features such as code interception and arbitrary code injection before or during a binary execution. It is also able to patch a packed binary during execution.
-
-Qiling Framework is open source and it is written in Python, a simple and commonly used programming language by reverse engineers. This will encourage continuous and active contributions from the security and open-source community. Hence, sustainable future development could be ensured.
+[1]Sonicwall的研究显示，2018年，恶意软件攻击达到105.2亿次，创下历史新高，表明网络攻击数量有所上升，网络犯罪分子使用了新的有针对性的威胁策略。
 
 ---
-<h1>What is Qiling Framework</h1>
-Qiling Framework is not just a emulation platform or a reverse engineering tool. It combines binary instrumentation and binary emulation into one single framework. With Qiling Framework, it able to:
+<h1>为什么选择Qiling框架</h1>
+Qiling框架旨在改变物联网安全研究、恶意软件分析和逆向工程的格局。主要目标是构建一个跨平台、支持多体系结构的框架，而不仅仅是另一个逆向工程工具。
 
-  - Redirect process execution flow on the fly
-  - Hot-patching binary during execution
-  - Code injection during execution
-  - Partial binary execution, without running the entire file
-  - Patch a "unpacked" content of a packed binary file
+Qiling框架是一个支持跨平台、多体系结构的二进制插桩和二进制仿真框架。它具有强大的功能，例如在二进制执行之前或执行期间进行代码拦截和任意代码注入。它还可以在执行期间patch目标二进制文件。
 
-Qiling Framework is able to emulate: 
-  - Windows X86 32/64bit
-  - Linux X86 32/64bit, ARM, AARCH64, MIPS
-  - MacOS X86 32/64bit
-  - FreeBSD X86 32/64bit
+Qiling框架是开源的，它是用python编写的，python是逆向工程师使用的一种简单而常用的编程语言。这将鼓励安全和开源社区不断作出积极贡献。因此，可以确保未来的可持续发展。
 
-Qiling Framework is able to run on top of Windows/MacOS/Linux/FreeBSD without CPU architecture limitation
+---
+<h1>Qiling框架是什么</h1>
+Qiling框架不仅仅是一个仿真平台或逆向工程工具。
+
+它将二进制插桩和二进制仿真结合到一个框架中。借助Qiling框架，它能够：
+  - 动态干预二进制程序执行流程
+  - 在二进制程序执行期间对其进行动态patch
+  - 在二进制程序执行期间对其进行代码注入
+  - 局部执行二进制程序，而不是运行整个文件
+  - 任意补丁“脱壳”已加壳程序内容
+
+Qiling框架能够模拟：
+  - Windows x86 32/64 bit
+  - Linux x86 32/64 bit，ARM，AARCH64，MIPS
+  - MacOS x86 32/64 bit
+  - FreeBSD x86 32/64 bit
+
+Qiling框架能够在Windows/MacOS/Linux/FreeBSD之上运行，不受CPU架构的限制
 
 ---
 
-<h1>How Qiling Framework Works</h1>
-##### Demo Setup
+<h1>Qiling框架是如何操作的</h1>
+##### Demo环境
 - *Hardware : X86 64bit*
 - *OS : Ubuntu 18.04 64bit*
 
-##### Demo #1 Catching Wannacry's killer switch
+##### Demo #1 获取Wannacry的killer switch
 Qiling Framework executes Wannacry binary, hooking address 0x40819a to catch the killerswitch url
 
 [![qiling DEMO 1: Catching wannacry's killer switch](https://img.youtube.com/vi/gVtpcXBxwE8/0.jpg)](https://www.youtube.com/watch?v=gVtpcXBxwE8 "Video DEMO 3")
 
-###### Sample code
+###### 代码样本
 
 ```python
 from qiling import *
@@ -59,7 +62,7 @@ if __name__ == "__main__":
     ql.run()
 ```
 
-###### Execution output
+###### 执行输出
 
 ```
 0x1333804: __set_app_type(0x2)
@@ -75,10 +78,12 @@ if __name__ == "__main__":
 0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
 ```
 ---
-##### Demo #2 Emulating ARM router firmware on Ubuntu X64 machine
+##### Demo #2 在Ubuntu X64上模拟ARM路由器固件
 Qiling Framework hot-patch and emulate ARM router's /usr/bin/httpd on a X86_64Bit Ubuntu
 
 [![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
+
+###### 代码样本
 
 ```python
 from qiling import *
@@ -95,12 +100,12 @@ if __name__ == "__main__":
     my_sandbox(["rootfs/tendaac15/bin/httpd"], "rootfs/tendaac15")
 ```
 ---
-##### Demo #3 Hotpatching a Windows crackme
+##### Demo #3 热修补Windows crackme
 Using Qiling Framework to dynamically patch a Windows crackme binary so that it always displays "Congratulation" dialog
 
 [![qiling DEMO 3: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
 
-###### Sample code
+###### 代码样本
 
 ```python
 from qiling import *
@@ -134,7 +139,7 @@ if __name__ == "__main__":
     my_sandbox(["rootfs/x86_windows/bin/Easy_CrackMe.exe"], "rootfs/x86_windows")
 ```
 
-###### Execution output
+###### 执行输出
 
 ```
 0x10cae10: GetStartupInfo(0xffffdf40)
