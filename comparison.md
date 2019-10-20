@@ -44,12 +44,14 @@ Qemu用户模式也做了类似的事情，即以跨体系结构的方式模拟�
   - Binee是一个用Go语言开发的仿真工具，但它不是一个框架。Binee不允许动态hook、热修补或提供任何自定义功能。作为Python模块设计的Qiling框架提供了更多的功能，使得很多动态分析成为可能
 
   - Binee只支持windows。Qiling框架支持更多平台和架构
+  
 ---
 
 ##### Qiling Framework vs Wine
   - Wine是一个模拟工具，不是用来分析的框架。它只在Linux、Mac、Freebsd和Solaris上模拟Windows，允许用户在\*NIX平台上运行Windows应用程序
 
   - Qiling框架并不是为此目的而构建的, 虽然Qiling可以运行许多其他平台和体系结构运行应用程序，但Qiling是用来做安全分析的
+
 ---
 
 ##### Qiling Framework vs Cuckoo Sandbox
