@@ -48,13 +48,13 @@ Qemu是一个完整的系统模拟器，但它不是分析工具。 Qemu带有�
 ---
 
 ##### 麒麟框架 vs Wine
-  - Wine是一个模拟器，不是用来分析的框架。它只在Linux、Mac、Freebsd和Solaris上模拟Windows，允许用户在\*NIX平台上运行Windows应用程序
+  - Wine是一个模拟器，不是用来分析的框架。它只在Linux，Mac，Freebsd和Solaris上模拟Windows，允许用户在\*NIX平台上运行Windows应用程序
 
   - 麒麟框架则不同，它不但可以模拟的系统与架构并运行应用程序，最关键的是，麒麟框架是用来做安全分析的。
 
 ---
 
 ##### 麒麟框架 vs Cuckoo Sandbox
-Cuckoo Sandbox是一个基于虚拟机的分析工具，即qemu、virtualbox，为二进制执行提供虚拟化环境。
+Cuckoo Sandbox是一个基于虚拟机的分析工具，如qemu或virtualbox，为二进制执行提供虚拟化环境。
 
 麒麟框架则可以在没有运行完整操作系统的情况下执行二进制文件，并且它可以和宿主OS更完美的对接。
