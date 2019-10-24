@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Qiling框架与其他开源模拟器和工具的比较
+title: 麒麟框架与其他开源模拟器和工具的比较
 permalink: /comparison/
 ---
 
-目前有许多开源模拟器，但有两个项目最接近Qiling框架是[Unicorn](http://www.unicorn-engine.org)和[Qemu usermode](https://qemu.org)。本节总结了Qiling与它们的主要区别。
+目前有许多开源模拟器，但有两个项目最接近麒麟框架是[Unicorn](http://www.unicorn-engine.org)和[Qemu usermode](https://qemu.org)。本节总结了麒麟框架与它们的主要区别。
 
 ##### 麒麟框架 vs Unicorn Engine
 麒麟框架基于Unicorn开发。然而二者是有区别的。
