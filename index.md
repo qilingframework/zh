@@ -9,7 +9,7 @@ IoT设备正面临前所未有的威胁。恶意软件攻击的对象通常是�
 
 ---
 <h1>为什么选择麒麟框架</h1>
-麒麟框架旨在改变IoT安全研究、恶意软件分析和逆向工程的现状。我们的目标是构建一个跨平台、支持多体系结构的分析框架，而不仅仅是做一个逆向工具。麒麟框架拥有强大的功能，例如在二进制执行之前或执行期间进行代码拦截和任意代码注入。它还可以在执行期间patch目标二进制文件。
+麒麟框架旨在改变IoT安全研究、恶意软件分析和逆向工程的现状。我们的目标是构建一个跨平台、支持多体系结构的分析框架，而不仅仅是做一个逆向工具。麒麟框架拥有强大的功能，例如在二进制执行之前或执行期间进行代码拦截和任意代码注入。它还可以在执行期间补丁目标二进制文件。
 
 麒麟框架是用Python编写的开源工具。Python是逆向工程师常用的简单的编程语言，这极大的降低了二次开发的门槛。
 
@@ -17,7 +17,7 @@ IoT设备正面临前所未有的威胁。恶意软件攻击的对象通常是�
 <h1>麒麟框架是什么</h1>
 麒麟框架不仅仅是一个仿真平台或逆向工程工具。它还将“二进制插桩”和“二进制仿真”结合一起。借助麒麟框架，你可以：
   - 动态干预二进制程序执行流程
-  - 在二进制程序执行期间对其进行动态patch
+  - 在二进制程序执行期间对其进行动态补丁
   - 在二进制程序执行期间对其进行代码注入
   - 局部执行二进制程序，而不是运行整个文件
   - 任意补丁“脱壳”已加壳程序内容
@@ -33,12 +33,12 @@ IoT设备正面临前所未有的威胁。恶意软件攻击的对象通常是�
 ---
 
 <h1>麒麟框架是如何操作的</h1>
-##### Demo环境
+##### 演示环境
 - *Hardware : X86 64bit*
 - *OS : Ubuntu 18.04 64bit*
 
-##### Demo #1 获取Wannacry的killer switch
-Qiling Framework executes Wannacry binary, hooking address 0x40819a to catch the killerswitch url
+##### Demo #1 获取Wannacry的断路器开关地址
+麒麟框架运行Wannacry恶意软件获取断路器开关地址
 
 [![qiling DEMO 1: Catching wannacry's killer switch](https://img.youtube.com/vi/gVtpcXBxwE8/0.jpg)](https://www.youtube.com/watch?v=gVtpcXBxwE8 "Video DEMO 3")
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 ```
 ---
 ##### Demo #2 在Ubuntu X64上模拟ARM路由器固件
-Qiling Framework hot-patch and emulate ARM router's /usr/bin/httpd on a X86_64Bit Ubuntu
+麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64Bit Ubuntu上运行
 
 [![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 ```
 ---
 ##### Demo #3 热修补Windows crackme
-Using Qiling Framework to dynamically patch a Windows crackme binary so that it always displays "Congratulation" dialog
+麒麟框架热修补丁Windows crackme程序使其显示“Congratulation”窗口。
 
 [![qiling DEMO 3: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
 
