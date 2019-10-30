@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
 [![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
 
-[![哔哩哔哩](http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg)](https//player.bilibili.com/player.html?aid=13125324&cid=21539921&page=1)
+[![哔哩哔哩](http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg)](https://player.bilibili.com/player.html?aid=13125324&cid=21539921&page=1)
 
 ###### 代码样本
 
