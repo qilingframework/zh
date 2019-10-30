@@ -75,9 +75,7 @@ if __name__ == "__main__":
 ##### Demo #2 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
 
-[![qiling DEMO 2: Fully emulating httpd from ARM router firmware with Qiling on Ubuntu X64 machine](https://img.youtube.com/vi/Nxu742-SNvw/0.jpg)](https://www.youtube.com/watch?v=Nxu742-SNvw "Video DEMO 1")
-
-[![哔哩哔哩](http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg)](https://player.bilibili.com/player.html?aid=65935353)
+[<img src="http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353)
 
 ###### 代码样本
 
