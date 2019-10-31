@@ -75,7 +75,7 @@ if __name__ == "__main__":
 ##### Demo #2 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
 
-[<img src="http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353)
+[<img src="http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "Video DEMO 2")
 
 ###### 代码样本
 
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 ##### Demo #3 热修补Windows crackme
 麒麟框架热修补丁Windows crackme程序使其显示“Congratulation”窗口。
 
-[![qiling DEMO 3: hotpatching a Windows crackme](http://img.youtube.com/vi/p17ONUbCnUU/0.jpg)](https://www.youtube.com/watch?v=p17ONUbCnUU "Video DEMO 1")
+[<img src="http://i2.hdslb.com/bfs/archive/1e2ab641642f302c31a9a8c0ad654510f0182d27.jpg" width="500">](https://www.bilibili.com/video/av74002230 "Video DEMO 3")
 
 ###### 代码样本
 
