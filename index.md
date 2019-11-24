@@ -40,7 +40,7 @@
 ##### 演示#1 获取Wannacry的断路器开关地址
 麒麟框架运行Wannacry恶意软件获取断路器开关地址
 
-[<img src="http://i2.hdslb.com/bfs/archive/c9cad948f279cf273916714f6f40db7ad5af3824.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#1 获取Wannacry的断路器开关地址")
+[<img src="https://i2.hdslb.com/bfs/archive/c9cad948f279cf273916714f6f40db7ad5jaf3824.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#1 获取Wannacry的断路器开关地址")
 
 ###### 代码样本
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
 ##### 演示#2 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
 
-[<img src="http://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#2 在Ubuntu X64位上模拟ARM路由器固件")
+[<img src="https://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#2 在Ubuntu X64位上模拟ARM路由器固件")
 
 ###### 代码样本
 
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 ##### 演示#3 热修补Windows crackme
 麒麟框架热修补丁Windows crackme程序使其显示“Congratulation”窗口。
 
-[<img src="http://i2.hdslb.com/bfs/archive/1e2ab641642f302c31a9a8c0ad654510f0182d27.jpg" width="500">](https://www.bilibili.com/video/av74002230 "演示#3 热修补Windows crackme")
+[<img src="https://i2.hdslb.com/bfs/archive/1e2ab641642f302c31a9a8c0ad654510f0182d27.jpg" width="500">](https://www.bilibili.com/video/av74002230 "演示#3 热修补Windows crackme")
 
 ###### 代码样本
 
