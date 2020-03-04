@@ -37,10 +37,16 @@
 - *Hardware : X86 64位*
 - *OS : Ubuntu 18.04 64位*
 
-##### 演示#1 获取Wannacry的断路器开关地址
+##### 演示#1 如何用IDAPro和麒麟框架解简单的CTF题目
+用IDAPro和麒麟框架解简单的CTF题目
+
+[<img src="https://i0.hdslb.com/bfs/archive/333fb1cd53b15ee4feda00b83687f96c5df76e23.jpg" width="500">](https://www.bilibili.com/video/av93142763 “演示#1 如何用IDAPro和麒麟框架解简单的CTF题目”）
+
+
+##### 演示#2 获取Wannacry的断路器开关地址
 麒麟框架运行Wannacry恶意软件获取断路器开关地址
 
-[<img src="https://i2.hdslb.com/bfs/archive/c9cad948f279cf273916714f6f40db7ad5af3824.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#1 获取Wannacry的断路器开关地址")
+[<img src="https://i2.hdslb.com/bfs/archive/c9cad948f279cf273916714f6f40db7ad5af3824.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#2 获取Wannacry的断路器开关地址")
 
 ###### 代码样本
 
@@ -72,10 +78,10 @@ if __name__ == "__main__":
 0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
 ```
 ---
-##### 演示#2 在Ubuntu X64位上模拟ARM路由器固件
+##### 演示#3 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
 
-[<img src="https://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#2 在Ubuntu X64位上模拟ARM路由器固件")
+[<img src="https://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#3 在Ubuntu X64位上模拟ARM路由器固件")
 
 ###### 代码样本
 
@@ -92,82 +98,4 @@ def my_sandbox(path, rootfs):
 
 if __name__ == "__main__":
     my_sandbox(["rootfs/tendaac15/bin/httpd"], "rootfs/tendaac15")
-```
----
-##### 演示#3 热修补Windows crackme
-麒麟框架热修补丁Windows crackme程序使其显示“Congratulation”窗口。
-
-[<img src="https://i2.hdslb.com/bfs/archive/1e2ab641642f302c31a9a8c0ad654510f0182d27.jpg" width="500">](https://www.bilibili.com/video/av74002230 "演示#3 热修补Windows crackme")
-
-###### 代码样本
-
-```python
-from qiling import *
-
-def force_call_dialog_func(ql):
-    # get DialogFunc address
-    lpDialogFunc = ql.unpack32(ql.mem_read(ql.sp - 0x8, 4))
-    # setup stack memory for DialogFunc
-    ql.stack_push(0)
-    ql.stack_push(1001)
-    ql.stack_push(273)
-    ql.stack_push(0)
-    ql.stack_push(0x0401018)
-    # force EIP to DialogFunc
-    ql.pc = lpDialogFunc
-
-
-def my_sandbox(path, rootfs):
-    ql = Qiling(path, rootfs)
-    # NOP out some code
-    ql.patch(0x004010B5, b'\x90\x90')
-    ql.patch(0x004010CD, b'\x90\x90')
-    ql.patch(0x0040110B, b'\x90\x90')
-    ql.patch(0x00401112, b'\x90\x90')
-    # hook at an address with a callback
-    ql.hook_address(0x00401016, force_call_dialog_func)
-    ql.run()
-
-
-if __name__ == "__main__":
-    my_sandbox(["rootfs/x86_windows/bin/Easy_CrackMe.exe"], "rootfs/x86_windows")
-```
-
-###### 执行输出
-
-```
-0x10cae10: GetStartupInfo(0xffffdf40)
-0x1121fa7: GetStdHandle(0xfffffff6) = 0xfffffff6
-0x111fbc4: GetFileType(0xfffffff6) = 0x2
-0x1121fa7: GetStdHandle(0xfffffff5) = 0xfffffff5
-0x111fbc4: GetFileType(0xfffffff5) = 0x2
-0x1121fa7: GetStdHandle(0xfffffff4) = 0xfffffff4
-0x111fbc4: GetFileType(0xfffffff4) = 0x2
-0x1121fd1: SetHandleCount(0x20) = 32
-0x1121fbf: GetCommandLineA() = 0x501091b8
-0x111fcd4: GetEnvironmentStringsW() = 0x501091e4
-0x1117ffa: WideCharToMultiByte(0x0, 0x0, 0x501091e4, 0x1, 0x0, 0x0, 0x0, 0x0) = 2
-0x1117ffa: WideCharToMultiByte(0x0, 0x0, 0x501091e4, 0x1, 0x50002098, 0x2, 0x0, 0x0) = 1
-0x111fcbc: FreeEnvironmentStringsW(0x501091e4) = 1
-0x1116a0b: GetACP() = 437
-0x1121f8f: GetCPInfo(0x1b5, 0xffffdf44) = 1
-0x1121f8f: GetCPInfo(0x1b5, 0xffffdf1c) = 1
-0x111e43e: GetStringTypeW(0x1, 0x40541c, 0x1, 0xffffd9d8) = 0
-0x10ffc95: GetStringTypeExA(0x0, 0x1, 0x405418, 0x1, 0xffffd9d8) = 0
-0x111e39c: LCMapStringW(0x0, 0x100, 0x40541c, 0x1, 0x0, 0x0) = 0
-0x1128a50: LCMapStringA(0x0, 0x100, 0x405418, 0x1, 0x0, 0x0) = 0
-0x111e39c: LCMapStringW(0x0, 0x100, 0x40541c, 0x1, 0x0, 0x0) = 0
-0x1128a50: LCMapStringA(0x0, 0x100, 0x405418, 0x1, 0x0, 0x0) = 0
-0x111685a: GetModuleFileNameA(0x0, 0x40856c, 0x104) = 42
-0x10cae10: GetStartupInfo(0xffffdfa0)
-0x11169f3: GetModuleHandleA(0x00) = 400000
-0x104cf42: DialogBoxParamA(0x400000, 0x65, 0x00, 0x401020, 0x00) = 0
-Input DlgItemText :
-
-        << enter any string or number here >>
-
-0x1063d14: GetDlgItemTextA(0x00, 0x3e8, 0xffffdef4, 0x64) = 3
-0x105ea11: MessageBoxA(0x00, "Congratulation !!", "EasyCrackMe", 0x40) = 2
-0x1033ba3: EndDialog(0x00, 0x00) = 1
-0x1124d12: ExitProcess(0x01)
 ```
