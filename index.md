@@ -42,7 +42,7 @@
 
 [<img src="https://raw.githubusercontent.com/qilingframework/zh/master/images/demo1.jpg" width="500">](https://www.bilibili.com/video/av93142763 "演示#1 如何用IDAPro和麒麟框架解简单的CTF题目")
 
-
+---
 ##### 演示#2 获取Wannacry的断路器开关地址
 麒麟框架运行Wannacry恶意软件获取断路器开关地址
 
