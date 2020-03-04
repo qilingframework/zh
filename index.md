@@ -40,13 +40,13 @@
 ##### 演示#1 如何用IDAPro和麒麟框架解简单的CTF题目
 用IDAPro和麒麟框架解简单的CTF题目
 
-[<img src="https://i0.hdslb.com/bfs/archive/333fb1cd53b15ee4feda00b83687f96c5df76e23.jpg" width="500">](https://www.bilibili.com/video/av93142763 "演示#1 如何用IDAPro和麒麟框架解简单的CTF题目")
+[<img src="images/demo1.jpg" width="500">](https://www.bilibili.com/video/av93142763 "演示#1 如何用IDAPro和麒麟框架解简单的CTF题目")
 
 
 ##### 演示#2 获取Wannacry的断路器开关地址
 麒麟框架运行Wannacry恶意软件获取断路器开关地址
 
-[<img src="https://i2.hdslb.com/bfs/archive/c9cad948f279cf273916714f6f40db7ad5af3824.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#2 获取Wannacry的断路器开关地址")
+[<img src="images/demo2.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#2 获取Wannacry的断路器开关地址")
 
 ###### 代码样本
 
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 ##### 演示#3 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
 
-[<img src="https://i2.hdslb.com/bfs/archive/71bae75ac5a852c9cf6805727ce44984c39926f4.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#3 在Ubuntu X64位上模拟ARM路由器固件")
+[<img src="images/demo3.jpg" width="500">](https://www.bilibili.com/video/av65935353 "演示#3 在Ubuntu X64位上模拟ARM路由器固件")
 
 ###### 代码样本
 
