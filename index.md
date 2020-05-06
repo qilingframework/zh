@@ -99,3 +99,36 @@ def my_sandbox(path, rootfs):
 if __name__ == "__main__":
     my_sandbox(["rootfs/tendaac15/bin/httpd"], "rootfs/tendaac15")
 ```
+---
+##### 演示#4 模拟UEFI
+麒麟框架模拟UEFI
+
+[![演示#4: 模拟UEFI](https://raw.githubusercontent.com/qilingframework/qilingframework.github.io/master/images/demo4-s.png)](https://raw.githubusercontent.com/qilingframework/qilingframework.github.io/master/images/demo4-en.png "演示#4: 模拟UEFI")
+
+###### 代码样本
+```python
+import sys
+import pickle
+sys.path.append("..")
+from qiling import *
+
+def force_notify_RegisterProtocolNotify(ql, address, params):
+    event_id = params['Event']
+    if event_id in ql.loader.events:
+        ql.loader.events[event_id]['Guid'] = params["Protocol"]
+        # let's force notify
+        event = ql.loader.events[event_id]
+        event["Set"] = True
+        ql.loader.notify_list.append((event_id, event['NotifyFunction'], event['NotifyContext']))
+        ######
+        return ql.os.ctx.EFI_SUCCESS
+    return ql.os.ctx.EFI_INVALID_PARAMETER
+
+
+if __name__ == "__main__":
+    with open("rootfs/x8664_efi/rom2_nvar.pickel", 'rb') as f:
+        env = pickle.load(f)
+    ql = Qiling(["rootfs/x8664_efi/bin/TcgPlatformSetupPolicy"], "rootfs/x8664_efi", env=env)
+    ql.set_api("hook_RegisterProtocolNotify", force_notify_RegisterProtocolNotify)
+    ql.run()
+```
