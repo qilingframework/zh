@@ -44,40 +44,14 @@
 [<img src="https://raw.githubusercontent.com/qilingframework/zh/master/images/demo1.jpg" width="500">](https://www.bilibili.com/video/av93142763 "演示#1 如何用IDAPro和麒麟框架解简单的CTF题目")
 
 ---
-##### 演示#2 获取Wannacry的断路器开关地址
-麒麟框架运行Wannacry恶意软件获取断路器开关地址
+##### 演示#2 麒麟框架进行模糊测试
+利用麒麟框架进行模糊测试，更多信息查询[这里](https://github.com/qilingframework/qiling/tree/dev/examples/fuzzing/README.md).
 
-[<img src="https://raw.githubusercontent.com/qilingframework/zh/master/images/demo2.jpg" width="500">](https://www.bilibili.com/video/av73975753 "演示#2 获取Wannacry的断路器开关地址")
+[<img src="https://github.com/qilingframework/qiling/blob/dev/examples/fuzzing/qilingfzz.png" width="500">](https://github.com/qilingframework/qiling/blob/dev/examples/fuzzing/qilingfzz.png "演示#2 麒麟框架进行模糊测试")
 
 ###### 代码样本
+[代码样本](https://github.com/qilingframework/qiling/blob/dev/examples/fuzzing/fuzz_x8664_linux.py)
 
-```python
-from qiling import *
-
-def stopatkillerswtich(ql):
-    ql.uc.emu_stop()
-
-if __name__ == "__main__":
-    ql = Qiling(["rootfs/x86_windows/bin/wannacry.bin"], "rootfs/x86_windows")
-    ql.hook_address(stopatkillerswtich, 0x40819a)
-    ql.run()
-```
-
-###### 执行输出
-
-```
-0x1333804: __set_app_type(0x2)
-0x13337ce: __p__fmode() = 0x500007ec
-0x13337c3: __p__commode() = 0x500007f0
-0x132f1e1: _controlfp(0x10000, 0x30000) = 0x8001f
-0x132d151: _initterm(0x40b00c, 0x40b010)
-0x1333bc0: __getmainargs(0xffffdf9c, 0xffffdf8c, 0xffffdf98, 0x0, 0xffffdf90) = 0
-0x132d151: _initterm(0x40b000, 0x40b008)
-0x1001e10: GetStartupInfo(0xffffdfa0)
-0x104d9f3: GetModuleHandleA(0x00) = 400000
-0x125b18e: InternetOpenA(0x0, 0x1, 0x0, 0x0, 0x0)
-0x126f0f1: InternetOpenUrlA(0x0, "http://www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com", "", 0x0, 0x84000000, 0x0)
-```
 ---
 ##### 演示#3 在Ubuntu X64位上模拟ARM路由器固件
 麒麟框架动态补丁及模拟ARM路由器固件，把其/usr/bin/httpd在X86_64位 Ubuntu上运行
