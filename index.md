@@ -47,7 +47,7 @@
 ##### 演示#2 麒麟框架进行模糊测试
 利用麒麟框架进行模糊测试，更多信息查询[这里](https://github.com/qilingframework/qiling/tree/dev/examples/fuzzing/README.md).
 
-[<img src="https://github.com/qilingframework/qiling/blob/dev/examples/fuzzing/qilingfzz.png" width="500">](https://raw.githubusercontent.com/qilingframework/qiling/dev/examples/fuzzing/qilingfzz.png "演示#2 麒麟框架进行模糊测试")
+[<img src="https://raw.githubusercontent.com/qilingframework/qilingframework.github.io/master/images/qilingfzz.png" width="500">](https://raw.githubusercontent.com/qilingframework/qilingframework.github.io/master/images/qilingfzz.png "演示#2 麒麟框架进行模糊测试")
 
 ###### 代码样本
 [代码样本](https://github.com/qilingframework/qiling/blob/dev/examples/fuzzing/fuzz_x8664_linux.py)
