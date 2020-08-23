@@ -158,3 +158,24 @@ if __name__ == "__main__":
     ql.set_api("hook_RegisterProtocolNotify", force_notify_RegisterProtocolNotify)
     ql.run()
 ```
+---
+
+<h1>如果您想为麒麟框架提供财务支持</h1>
+
+- 维护开源项目是一件不容易的事。我们重视社区的任何协助。
+
+- 捐款后，请发一封电子邮件至kj@qiling.io，我将会寄给您一些纪念品以示谢意。
+
+##### XMR: 
+- 46T1c5taWuP6G4XvAG5shC6a7eai4Qe4HPFj5qEGyJzzMVRa9M9MR4DbNbbSDKtbgNR6bvWyj32Wb3HySYZuDqUp2GCr52o
+
+##### DASH: 
+- XhTsLXTQEhN5F7hKtq8HV867um3HZuXvF9
+
+##### ADA: 
+- DdzFFzCqrht8MbmRQL8v86XG5vQHYNC6NQwFkhCW4rsNHMLfzWyxVTce5yFayg6QqJBdL7AapwvFL3fBAoBmPLR9gDbkzLGfVVEGHnNC
+
+##### ETH: 
+- 0xec095228411d4a232f4d221ad7defcde36eb981f
+##### BTC: 
+- 1NmxDWWak8qtpmYGnXBK1osRNNYH2zxpZs
