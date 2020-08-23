@@ -28,6 +28,7 @@
   - MacOS x86 32/64位
   - FreeBSD x86 32/64位
   - UEFI
+  - DOS
 
 麒麟框架能够在Linux/MacOS/FreeBSD/Windows(WSL)等操作系统上运行，且不受CPU架构的限制
 
