@@ -4,16 +4,16 @@ API丰富的麒麟框架将逆向工程及二进制代码插桩提升到了一�
 
 麒麟框架也在各大国际安全峰会亮相
 - 2020年:
-    - Black Hat, 美国
-    - Black Hat, 亚洲
-    - Hack In The Box, Lockdown 001
-    - Hack In The Box, Lockdown 002
-    - Nullcon
+    - [Black Hat, 美国](https://www.blackhat.com/us-20/arsenal/schedule/index.html#qiling-framework-from-dark-to-dawn-----enlightening-the-analysis-of-the-most-mysterious-iot-firmware--21062)
+    - [Black Hat, 亚洲](https://www.blackhat.com/asia-20/arsenal/schedule/index.html#qiling-lightweight-advanced-binary-analyzer-19245)
+    - [Hack In The Box, Lockdown 001](https://conference.hitb.org/lockdown-livestream/)
+    - [Hack In The Box, Lockdown 002](https://conference.hitb.org/hitb-lockdown002/virtual-labs/virtual-lab-qiling-framework-learn-how-to-build-a-fuzzer-based-on-a-1day-bug/)
+    - [Nullcon](https://nullcon.net/website/goa-2020/speakers/kaijern-lau.php)
     
 - 2019年:
-    - Defcon, 美国
-    - Hitcon
-    - Zeronights
+    - [Defcon, 美国](https://www.defcon.org/html/defcon-27/dc-27-demolabs.html#QiLing)
+    - [Hitcon](https://hitcon.org/2019/CMT/agenda)
+    - [Zeronights](https://zeronights.ru/report-en/qiling-io-advanced-binary-emulation-framework/)
 
 ---
 <h1>为什么我们需要麒麟框架</h1>
