@@ -6,10 +6,12 @@
 
 麒麟框架也在各大国际安全峰会亮相
 - 2020年:
+    - [Black Hat, 欧洲](https://www.blackhat.com/eu-20/arsenal/schedule/index.html#qiling-framework-deep-dive-into-obfuscated-binary-analysis-21781)
     - [Black Hat, 美国](https://www.blackhat.com/us-20/arsenal/schedule/index.html#qiling-framework-from-dark-to-dawn-----enlightening-the-analysis-of-the-most-mysterious-iot-firmware--21062)
     - [Black Hat, 亚洲](https://www.blackhat.com/asia-20/arsenal/schedule/index.html#qiling-lightweight-advanced-binary-analyzer-19245)
     - [Hack In The Box, Lockdown 001](https://conference.hitb.org/lockdown-livestream/)
     - [Hack In The Box, Lockdown 002](https://conference.hitb.org/hitb-lockdown002/virtual-labs/virtual-lab-qiling-framework-learn-how-to-build-a-fuzzer-based-on-a-1day-bug/)
+    - [Hack In The Box, Cyberweek](https://cyberweek.ae/2020/lab-qiling-framework/)
     - [Nullcon](https://nullcon.net/website/goa-2020/speakers/kaijern-lau.php)
     
 - 2019年:
