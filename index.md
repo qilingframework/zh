@@ -1,4 +1,4 @@
-麒麟框架是一个超轻量级的“沙盒”，适用于Linux、MacOS、Windows、FreeBSD、DOS、UEFI和MBR。它支持x86（16、32和64位）、ARM、ARM64和MIPS。
+麒麟框架是一个超轻量级的“沙盒”，适用于Linux、MacOS、Windows、FreeBSD、DOS、UEFI和MBR。它支持x86（16、32和64位）、ARM、ARM64和MIPS。麒麟框架也凭借[Demigod](https://groundx.io/demigod/)支持Linux内核模块(.ko)，微软视窗驱动(.sys）和苹果MacOS内核(.kext)。
 
 然而，麒麟框架不是旨于构建另一个“沙盒”工具，而是为逆向工程设计的框架。因此，二进制检测和API是麒麟框架的主要及优先关注点。使用麒麟框架可以节省时间。拥有丰富API的麒麟框架将逆向工程及二进制代码检测快速的提升到了一个新的层次。
 
